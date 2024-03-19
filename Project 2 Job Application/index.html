@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Application</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
 </head>
 <body>
     <div class="container">
@@ -15,12 +16,52 @@
             <form action="">
                 <div class="container">
                     <div>
-                        <label for="f-name">First Name</label><br>
-                        <input id="f-name" type="text" placeholder="Enter First Name">
+                        <label for="text">First Name</label><br> 
+                        <input class="text"type="text" placeholder="Enter First Name...">
                     </div>
                     <div>
-                        <label for="l-name">Last Name</label><br>
-                        <input id="l-name" type="text" placeholder="Enter Last Name">
+                        <label for="text">Last Name</label><br>
+                        <input class="text" type="text" placeholder="Enter Last Name...">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="m-1">
+                        <label for="text m-1">Email</label><br> 
+                        <input class="text" type="email" placeholder="Enter Email...">
+                    </div>
+                    <div class="m-1">
+                        <label for="text">Job Role</label><br>
+                        <select id="select">
+                            <option value="volvo">Select Job Role</option>
+                            <option value="saab">Frontend Developer</option>
+                            <option value="mercedes">Backend Developer</option>
+                            <option value="audi">Full Stack Developer</option>
+                            <option value="audi">UI UX Designer</option>
+                          </select>
+                    </div>
+                </div>
+                <div class="m-1">
+                    <label for="address" class="ml-2">Address:</label><br>
+                    <textarea class="address" name="address" rows="3" cols="50" placeholder="Enter Address"></textarea>
+                </div>
+                <div class="container">
+                    <div class="m-1">
+                        <label for="text">City</label><br> 
+                        <input class="text"type="text" placeholder="Enter City Name...">
+                    </div>
+                    <div class="m-1">
+                        <label for="text">Pincode</label><br>
+                        <input class="text" type="number" placeholder="Enter Pincode Name...">
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="m-1">
+                        <label for="text">City</label><br> 
+                        <input class="text" type="date">
+                    </div>
+                    <div class="m-1">
+                        <label for="text">Pincode</label><br>
+                        <input class="text" type="number" placeholder="Enter Pincode Name...">
                     </div>
                 </div>
             </form>
@@ -28,3 +69,4 @@
     </div>
 </body>
 </html>
+<input type="email">
