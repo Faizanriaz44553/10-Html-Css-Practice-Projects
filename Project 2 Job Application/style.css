@@ -46,3 +46,17 @@ gap: 30px;
    border: 1px solid #CCCCCC;
    border-radius: 5px;
 }
+.date{
+    padding: 7px 70px;
+    text-align: start;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.pincode{
+    padding: 7px;
+    text-align: start;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    margin-top: 5px;
+}
